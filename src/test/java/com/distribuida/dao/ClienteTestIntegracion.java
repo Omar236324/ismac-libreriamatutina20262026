@@ -1,6 +1,5 @@
 package com.distribuida.dao;
 
-import com.dao.ClienteDAO;
 import com.distribuida.model.Cliente;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
@@ -57,7 +56,7 @@ public class ClienteTestIntegracion {
     }
     @Test
     public void update(){
-        Optional<Cliente> cliente = clienteDAO.findById(44);
+        Optional<Cliente> cliente = clienteDAO.findById(46);
         assertTrue(cliente.isPresent(),"el cliente de id=44 debe de existir para ser actualizado");
 
         cliente.orElse(null).setCedula("173489542312");
@@ -77,8 +76,8 @@ public class ClienteTestIntegracion {
 
     @Test
     public void delete(){
-        if(clienteDAO.existsById(44)){
-            clienteDAO.deleteById(44);
+        if(clienteDAO.existsById(46)){
+            clienteDAO.deleteById(46);
         }
         assertFalse(clienteDAO.existsById(44),"el id deberia haberse eliminado");
     }

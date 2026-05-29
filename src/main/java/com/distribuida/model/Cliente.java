@@ -12,17 +12,17 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_cliente")
     private int idCliente;
-    @Column(name = "id_cedula")
+    @Column(name = "cedula")
     private String cedula;
-    @Column(name = "id_nombre")
+    @Column(name = "nombre")
     private String nombre;
-    @Column(name = "id_apellido")
+    @Column(name = "apellido")
     private String apellido;
-    @Column(name = "id_direccion")
+    @Column(name = "direccion")
     private String direccion;
-    @Column(name = "id_telefono")
+    @Column(name = "telefono")
     private String telefono;
-    @Column(name = "id_corre0")
+    @Column(name = "corre0")
     private String correo;
 
            //contructor vacio

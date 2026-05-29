@@ -1,4 +1,4 @@
-package com.service;
+package com.distribuida.service;
 
 import com.distribuida.model.Cliente;
 import org.springframework.stereotype.Service;

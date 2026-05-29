@@ -1,9 +1,8 @@
-package com.service;
+package com.distribuida.service;
 
 import com.distribuida.model.Cliente;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface ClienteService {
     public List<Cliente> findAll();
