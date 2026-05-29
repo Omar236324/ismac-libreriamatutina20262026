@@ -1,6 +1,5 @@
 package com.distribuida.model;
 
-import org.assertj.core.util.VisibleForTesting;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

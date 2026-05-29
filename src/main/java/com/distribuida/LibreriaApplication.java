@@ -1,4 +1,4 @@
-package com;
+package com.distribuida;
 
 import com.distribuida.model.Cliente;
 import org.springframework.boot.SpringApplication;
